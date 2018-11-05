@@ -1,0 +1,34 @@
+* cat: used to type out a file or combine files
+* head: used to show the first few lines of a file
+* tail: uesd to show the last few lines of a file
+* man: used to view documantation
+* mkdir: to make directory
+* ls: list all directories and files
+* login: to switch user
+* shutdown: to shutdown
+* shutdown -h: to halt shutdown
+* shutdoen -c: to cancel shutdown
+* reboot, shutdown -r: to reboot
+* which: to locate program
+* whereis: locate packages
+* locate: locate a file
+* find: locate file which match specified conditions
+* pwd: Displays the present working directory
+* cd: change to your home directory
+* cd ..: change to parent diectory
+* cd -: change to previous directory
+* ln: to create hard links
+* ln -s: to create soft links
+* pushd: to change directory instead of cd
+* popd: send you back to previous directories
+* dirs: show list of directories in stack
+* tac: to look file backwards,starting with en line
+* less: to view larger file
+* touch: to create empty file or to change timestampe
+* mv: rename or move a file
+* rm: remove file
+* rm -f: forcefully remove file
+* rm -i: interactively remove file
+* rmdir: remove empty directory
+* rm -rf: forcefully remove a directory recursively
+
