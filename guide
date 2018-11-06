@@ -84,5 +84,3 @@ The text file /etc/exports contains the directories and permissions that a host 
 
 This entry allows the directory /projects to be mounted using NFS with read and write (rw) permissions and shared with other hosts in the example.com domain
 
-
-
