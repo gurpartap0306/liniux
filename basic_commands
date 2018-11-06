@@ -31,4 +31,12 @@
 * rm -i: interactively remove file
 * rmdir: remove empty directory
 * rm -rf: forcefully remove a directory recursively
-
+* ps: show processes runthrogh terminal
+* ps -ef: show all running processes
+* ps -eLf: also provide line of information for process
+* w:
+* jobs:
+* top: show detail of process and cpu
+* at: schedule process or task
+* cron: time base schedulling
+* sleep: to delay or susped a process

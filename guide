@@ -57,3 +57,32 @@ Here, -ctime is when the inode metadata (i.e. file ownership, permissions, etc.)
 
 To find files based on sizes:
 $ find / -size 0
+
+
+//file partitioning
+* gparted -- application for managing partitioning of memory in linux
+
+
+//mounting and unmounting
+
+ $ sudo mount /dev/sda5/home
+will attach the filesystem contained in the disk partition associated with the /dev/sda5 device node, into the filesystem tree at the /home mount point. There are other ways to specify the partition other than the device node, such as using the disk label or UUID
+
+To unmount the partition, the command would be:
+$ sudo umount /home
+
+
+//nfs on the server
+
+On the server machine, NFS uses daemons (built-in networking and service processes in Linux) and other system servers are started at the command line by typing:
+
+$ sudo systemctl start nfs
+
+The text file /etc/exports contains the directories and permissions that a host is willing to share with other systems over NFS. A very simple entry in this file may look like the following:
+
+/projects *.example.com(rw)
+
+This entry allows the directory /projects to be mounted using NFS with read and write (rw) permissions and shared with other hosts in the example.com domain
+
+
+
