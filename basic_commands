@@ -7,7 +7,7 @@
 * login: to switch user
 * shutdown: to shutdown
 * shutdown -h: to halt shutdown
-* shutdoen -c: to cancel shutdown
+* shutdown -c: to cancel shutdown
 * reboot, shutdown -r: to reboot
 * which: to locate program
 * whereis: locate packages
@@ -40,3 +40,7 @@
 * at: schedule process or task
 * cron: time base schedulling
 * sleep: to delay or susped a process
+* mount: to see presently mounted filesystems
+* df -Th: information about mounted filesystems
+* cp: to copy files or directories
+* rsync: it is more efficient than cp
